@@ -1,0 +1,22 @@
+* {
+    font-family: "Montserrat", sans-serif;
+  }
+  header {
+    background-image: linear-gradient(0deg, black, rgba(0, 0, 0, 0)),
+      url("https://m.economictimes.com/thumb/msid-99669954,width-7046,height-3963,resizemode-4,imgsize-1040534/best-gaming-headphones-in-india-under-rs-2500-for-crystal-clear-sound.jpg");
+    background-size: cover;
+    background-position: center;
+    padding: 100px 0;
+  }
+
+  .card-title {
+    height: 70px;
+    overflow: hidden;
+  }
+  .card {
+    transform-style: preserve-3d;
+    transform: perspective(1000px);
+  }
+  .card-body {
+    transform: translateZ(60px);
+  }

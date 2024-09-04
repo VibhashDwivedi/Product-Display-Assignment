@@ -11,9 +11,9 @@ const fetchLaptopData = async () => {
     const response = await fetch('https://dummyjson.com/products?limit=0&skip=82');
     const data = await response.json();
     laptopData = data.products;
-    console.log('Laptop data fetched successfully');
+    console.log('Product data fetched successfully');
   } catch (error) {
-    console.error('Error fetching laptop data:', error);
+    console.error('Error fetching product data:', error);
   }
 };
 

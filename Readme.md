@@ -6,5 +6,7 @@
  3.  cd backend
  4.  npm install
  5.  npm run dev
+ 
+ 
  The backend should be running successfuly.
  Now open the file index.html on a browser and you shall seee the project running.
